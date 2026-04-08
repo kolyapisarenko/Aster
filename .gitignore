@@ -1,0 +1,21 @@
+# Database and local files
+data/*.db
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Virtual environment
+aster/
+.env
+
+# Docker
+.dockerignore
+
+# System files
+.DS_Store
+Thumbs.db
+
+# VS Code files
+.vscode/
+*.code-workspace

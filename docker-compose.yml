@@ -1,0 +1,31 @@
+services:
+  aster-web:
+    build: .
+    image: aster-web-app
+    command: streamlit run main.py --server.port 8502 --server.address 0.0.0.0
+    ports:
+      - "8502:8502"
+    volumes:
+      - ./data:/app/data
+    restart: always
+
+  aster-bot:
+    build: .
+    image: aster-bot-app
+    command: python bot_main.py
+    depends_on:
+      - aster-web
+    volumes:
+      - ./data:/app/data
+    restart: always
+
+  ngrok-tunnel:
+    image: ngrok/ngrok:latest
+    restart: always
+    environment:
+      - NGROK_AUTHTOKEN=3C1qYHdD3vMRNSd6G4dZ5UjCqIv_2cHpqGoDs3tNUGSGVizgd
+    command:
+      - http
+      - aster-web:8502
+    depends_on:
+      - aster-web
