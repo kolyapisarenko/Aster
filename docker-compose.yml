@@ -27,7 +27,7 @@ services:
     image: ngrok/ngrok:latest
     restart: always
     environment:
-      - NGROK_AUTHTOKEN=3C1qYHdD3vMRNSd6G4dZ5UjCqIv_2cHpqGoDs3tNUGSGVizgd
+      - NGROK_AUTHTOKEN=${NGROK_TOKEN}
     command:
       - http
       - aster-web:8502
