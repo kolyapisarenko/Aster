@@ -23,7 +23,7 @@ The ecosystem is built using a "container-first" approach to ensure environment 
 * **Language:** Python 3.10+
 * **Web Interface:** Streamlit
 * **Telegram Interface:** Aiogram 3.x
-* **Database:** PostgreSQL / SQLite
+* **Database:** SQLite
 * **Infrastructure:** Docker & Docker Compose
 
 ---
