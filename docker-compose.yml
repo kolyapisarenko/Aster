@@ -14,9 +14,10 @@ services:
   aster-bot:
     build: .
     image: aster-bot-app
-    command: python bot_main.py
+    command: sh -c "sleep 15 && python bot_main.py"
     depends_on:
       - aster-web
+      - ngrok-tunnel
     env_file:
       - .env
     volumes:

@@ -18,7 +18,7 @@ from utils.database import (
 def get_ngrok_url():
     time.sleep(5) 
     try:
-        response = requests.get("http://ngrok-tunnel:4040/api/tunnels")
+        response = requests.get("http://ngrok-tunnel:4040/api/tunnels", timeout=3.0)
         data = response.json()
         return data['tunnels'][0]['public_url']
     except Exception as e:
