@@ -1,0 +1,884 @@
+{
+    "expenses": [
+        {
+            "id" : "housing_category",
+            "name": "Housing",
+            "img": "",
+            "subcategories": [
+                {
+                    "id": "rental_sub",
+                    "name": "Rental",
+                    "img": ""
+                },
+                {
+                    "id": "mortgage_sub",
+                    "name": "Mortgage",
+                    "img": ""
+                },
+                {
+                    "id": "utility_services_sub",
+                    "name": "Utility Services",
+                    "img": ""
+                },
+                {
+                    "id": "internet_sub",
+                    "name": "Internet",
+                    "img": ""
+                },
+                {
+                    "id": "mobile_sub",
+                    "name": "Mobile",
+                    "img": ""
+                },
+                {
+                    "id": "repair_sub",
+                    "name": "Repair",
+                    "img": ""
+                },
+                {
+                    "id": "furniture_sub",
+                    "name": "Furniture",
+                    "img": ""
+                },
+                {
+                    "id": "household_goods_sub",
+                    "name": "Household Goods",
+                    "img": ""
+                },
+                {
+                    "id": "other_housing_sub",
+                    "name": "Other Housing",
+                    "img": ""
+                }
+            ]
+        },
+        {
+            "id" : "food_category",
+            "name": "Food",
+            "img": "",
+            "subcategories": [
+                {
+                    "id": "groceries_sub",
+                    "name": "Groceries",
+                    "img": ""
+                },
+                {
+                    "id": "restaurants_sub",
+                    "name": "Restaurants",
+                    "img": ""
+                },
+                {
+                    "id": "cafe_sub",
+                    "name": "Cafe",
+                    "img": ""
+                },
+                {
+                    "id": "delivery_sub",
+                    "name": "Delivery",
+                    "img": ""
+                },
+                {
+                    "id": "fast_food_sub",
+                    "name": "Fast Food",
+                    "img": ""
+                },
+                {
+                    "id": "candy_snacks_sub",
+                    "name": "Candy/Snacks",
+                    "img": ""
+                },
+                {
+                    "id": "drinks_sub",
+                    "name": "Drinks",
+                    "img": ""
+                },
+                {
+                    "id": "other_food_sub",
+                    "name": "Other",
+                    "img": ""
+                }
+            ]
+        },
+        {
+            "id" : "transport_category",
+            "name": "Transport",
+            "img": "",
+            "subcategories": [
+                {
+                    "id": "public_transportation_sub",
+                    "name": "Public Transportation",
+                    "img": ""
+                },
+                {
+                    "id": "taxi_sub",
+                    "name": "Taxi",
+                    "img": ""
+                },
+                {
+                    "id": "fuel_sub",
+                    "name": "Fuel",
+                    "img": ""
+                },
+                {
+                    "id": "parking_sub",
+                    "name": "Parking",
+                    "img": ""
+                },
+                {
+                    "id": "car_maintenance_sub",
+                    "name": "Car Maintenance",
+                    "img": ""
+                },
+                {
+                    "id": "car_repair_sub",
+                    "name": "Car Repair",
+                    "img": ""
+                },
+                {
+                    "id": "car_insurance_sub",
+                    "name": "Car Insurance",
+                    "img": ""
+                },
+                {
+                    "id": "buying_a_car_sub",
+                    "name": "Buying a Car",
+                    "img": ""
+                },
+                {
+                    "id": "bicycle_scooter_sub",
+                    "name": "Bicycle/Scooter",
+                    "img": ""
+                },
+                {
+                    "id": "other_car_sub",
+                    "name": "other",
+                    "img": ""
+                }
+            ]
+        },
+        {
+            "id" : "shopping_category",
+            "name": "Shopping",
+            "img": "",
+            "subcategories": [
+                {
+                    "id": "clothes_sub",
+                    "name": "Clothes",
+                    "img": ""
+                },
+                {
+                    "id": "shoes_sub",
+                    "name": "Shoes",
+                    "img": ""
+                },
+                {
+                    "id": "electronics_sub",
+                    "name": "Electronics",
+                    "img": ""
+                },
+                {
+                    "id": "appliances_sub",
+                    "name": "Appliances",
+                    "img": ""
+                },
+                {
+                    "id": "cosmetics_sub",
+                    "name": "Cosmetics",
+                    "img": ""
+                },
+                {
+                    "id": "accessories_sub",
+                    "name": "Accessories",
+                    "img": ""
+                },
+                {
+                    "id": "gifts_sub",
+                    "name": "Gifts",
+                    "img": ""
+                },
+                {
+                    "id": "hobbies_sub",
+                    "name": "Hobbies",
+                    "img": ""
+                },
+                {
+                    "id": "other_shopping_sub",
+                    "name": "Other Shopping",
+                    "img": ""
+                }
+            ]
+        },
+        {
+            "id" : "health_category",
+            "name": "Health",
+            "img": "",
+            "subcategories": [
+                {
+                    "id": "medicine_sub",
+                    "name": "Medicine",
+                    "img": ""
+                },
+                {
+                    "id": "doctors_sub",
+                    "name": "Doctors",
+                    "img": ""
+                },
+                {
+                    "id": "dentistry_sub",
+                    "name": "Dentistry",
+                    "img": ""
+                },
+                {
+                    "id": "tests_sub",
+                    "name": "Tests",
+                    "img": ""
+                },
+                {
+                    "id": "insurance_sub",
+                    "name": "Insurance",
+                    "img": ""
+                },
+                {
+                    "id": "sport_fitness_sub",
+                    "name": "Sport & Fitness",
+                    "img": ""
+                },
+                {
+                    "id": "other_health_sub",
+                    "name": "Other Health",
+                    "img": ""
+                },
+                {
+                    "id": "household_goods_sub",
+                    "name": "Household Goods",
+                    "img": ""
+                },
+                {
+                    "id": "other_housing_sub",
+                    "name": "Other Housing",
+                    "img": ""
+                }
+            ]
+        },
+        {
+            "id" : "education_category",
+            "name": "Education",
+            "img": "",
+            "subcategories": [
+                {
+                    "id": "college_sub",
+                    "name": "College",
+                    "img": ""
+                },
+                {
+                    "id": "courses_sub",
+                    "name": "Courses",
+                    "img": ""
+                },
+                {
+                    "id": "books_sub",
+                    "name": "Books",
+                    "img": ""
+                },
+                {
+                    "id": "education_materials_sub",
+                    "name": "Education Materials",
+                    "img": ""
+                },
+                {
+                    "id": "certification_sub",
+                    "name": "Certification",
+                    "img": ""
+                },
+                {
+                    "id": "tutors_sub",
+                    "name": "Tutors",
+                    "img": ""
+                },
+                {
+                    "id": "other_education_sub",
+                    "name": "Other Education",
+                    "img": ""
+                }
+            ]
+        },
+        {
+            "id" : "entertainment_category",
+            "name": "Entertainment",
+            "img": "",
+            "subcategories": [
+                {
+                    "id": "games_sub",
+                    "name": "Games",
+                    "img": ""
+                },
+                {
+                    "id": "cinema_sub",
+                    "name": "Cinema",
+                    "img": ""
+                },
+                {
+                    "id": "concerts_sub",
+                    "name": "Concerts",
+                    "img": ""
+                },
+                {
+                    "id": "events_sub",
+                    "name": "Events",
+                    "img": ""
+                },
+                {
+                    "id": "nightlife_sub",
+                    "name": "Nightlife",
+                    "img": ""
+                },
+                {
+                    "id": "subscriptions_sub",
+                    "name": "Subscriptions",
+                    "img": ""
+                },
+                {
+                    "id": "streaming_services_sub",
+                    "name": "Streaming Services",
+                    "img": ""
+                },
+                {
+                    "id": "books_entertainment_sub",
+                    "name": "Books",
+                    "img": ""
+                },
+                {
+                    "id": "other_books_sub",
+                    "name": "Other Entertainment",
+                    "img": ""
+                }
+            ]
+        },
+        {
+            "id" : "travelling_category",
+            "name": "Housing",
+            "img": "",
+            "subcategories": [
+                {
+                    "id": "tickets_sub",
+                    "name": "Tickets",
+                    "img": ""
+                },
+                {
+                    "id": "hotel_sub",
+                    "name": "Hotel",
+                    "img": ""
+                },
+                {
+                    "id": "nutrition_sub",
+                    "name": "Nutrition",
+                    "img": ""
+                },
+                {
+                    "id": "tours_sub",
+                    "name": "Tours",
+                    "img": ""
+                },
+                {
+                    "id": "gears_sub",
+                    "name": "Gears",
+                    "img": ""
+                },
+                {
+                    "id": "visa_documents_sub",
+                    "name": "Visa & Documents",
+                    "img": ""
+                },
+                {
+                    "id": "insurance_travel_sub",
+                    "name": "Insurance",
+                    "img": ""
+                },
+                {
+                    "id": "other_travelling_sub",
+                    "name": "Other Travelling",
+                    "img": ""
+                }
+            ]
+        },
+        {
+            "id" : "technologies_category",
+            "name": "Technologies",
+            "img": "",
+            "subcategories": [
+                {
+                    "id": "software_sub",
+                    "name": "Software",
+                    "img": ""
+                },
+                {
+                    "id": "cloud_services_sub",
+                    "name": "Cloud Services",
+                    "img": ""
+                },
+                {
+                    "id": "hosting_domains_sub",
+                    "name": "Hosting & Domains",
+                    "img": ""
+                },
+                {
+                    "id": "computer_sub",
+                    "name": "Computer",
+                    "img": ""
+                },
+                {
+                    "id": "telephone_sub",
+                    "name": "Telephone",
+                    "img": ""
+                },
+                {
+                    "id": "periphery_sub",
+                    "name": "Periphery",
+                    "img": ""
+                },
+                {
+                    "id": "other_technologies_sub",
+                    "name": "Other Technologies",
+                    "img": ""
+                }
+            ]
+        },
+        {
+            "id" : "family_friends_category",
+            "name": "Family & Friends",
+            "img": "",
+            "subcategories": [
+                {
+                    "id": "help_sub",
+                    "name": "Help",
+                    "img": ""
+                },
+                {
+                    "id": "children_sub",
+                    "name": "Children",
+                    "img": ""
+                },
+                {
+                    "id": "gifts_family_sub",
+                    "name": "Gifts",
+                    "img": ""
+                },
+                {
+                    "id": "pets_sub",
+                    "name": "Pets",
+                    "img": ""
+                },
+                {
+                    "id": "other_family_sub",
+                    "name": "Other",
+                    "img": ""
+                }
+            ]
+        },
+        {
+            "id" : "animals_category",
+            "name": "Animals",
+            "img": "",
+            "subcategories": [
+                {
+                    "id": "food_pets_sub",
+                    "name": "Food",
+                    "img": ""
+                },
+                {
+                    "id": "veterinarian_sub",
+                    "name": "Veterinarian",
+                    "img": ""
+                },
+                {
+                    "id": "medicine_pets_sub",
+                    "name": "Medicine",
+                    "img": ""
+                },
+                {
+                    "id": "grooming_sub",
+                    "name": "Grooming",
+                    "img": ""
+                },
+                {
+                    "id": "toys_accessories_sub",
+                    "name": "Toys & Accessories",
+                    "img": ""
+                },
+                {
+                    "id": "other_pets_sub",
+                    "name": "Other",
+                    "img": ""
+                }
+            ]
+        },
+        {
+            "id" : "finances_category",
+            "name": "Finances",
+            "img": "",
+            "subcategories": [
+                {
+                    "id": "bank_fees_sub",
+                    "name": "Bank Fees",
+                    "img": ""
+                },
+                {
+                    "id": "transfer_fees_sub",
+                    "name": "Transfer Fees",
+                    "img": ""
+                },
+                {
+                    "id": "loan_interest_sub",
+                    "name": "Loan Interest",
+                    "img": ""
+                },
+                {
+                    "id": "loan_repayment_sub",
+                    "name": "Loan Repayment",
+                    "img": ""
+                },
+                {
+                    "id": "investments_sub",
+                    "name": "Investments",
+                    "img": ""
+                },
+                {
+                    "id": "savings_sub",
+                    "name": "Savings",
+                    "img": ""
+                },
+                {
+                    "id": "other_finances_sub",
+                    "name": "Other",
+                    "img": ""
+                }
+            ]
+        },
+        {
+            "id" : "taxes_government_fees_category",
+            "name": "Taxes & Government Fees",
+            "img": "",
+            "subcategories": [
+                {
+                    "id": "taxes_sub",
+                    "name": "Taxes",
+                    "img": ""
+                },
+                {
+                    "id": "fines_sub",
+                    "name": "Fines",
+                    "img": ""
+                },
+                {
+                    "id": "government_services_sub",
+                    "name": "Government Services",
+                    "img": ""
+                },
+                {
+                    "id": "documents_sub",
+                    "name": "Documnets",
+                    "img": ""
+                },
+                {
+                    "id": "other_taxes_sub",
+                    "name": "Other",
+                    "img": ""
+                }
+            ]
+        },
+        {
+            "id" : "personal_category",
+            "name": "Personal",
+            "img": "",
+            "subcategories": [
+                {
+                    "id": "hygiene_sub",
+                    "name": "Hygiene",
+                    "img": ""
+                },
+                {
+                    "id": "hair_salon_barbershop_sub",
+                    "name": "Hair Salon & Barbershop",
+                    "img": ""
+                },
+                {
+                    "id": "cosmetics_personal_sub",
+                    "name": "Cosmetics",
+                    "img": ""
+                },
+                {
+                    "id": "care_sub",
+                    "name": "Care",
+                    "img": ""
+                },
+                {
+                    "id": "other_personal_sub",
+                    "name": "Other",
+                    "img": ""
+                }
+            ]
+        },
+        {
+            "id" : "other_category",
+            "name": "Other",
+            "img": "",
+            "subcategories": [
+                {
+                    "id": "unexpected_expenses_sub",
+                    "name": "Unexpected Expenses",
+                    "img": ""
+                },
+                {
+                    "id": "other_sub",
+                    "name": "Other",
+                    "img": ""
+                }
+            ]
+        }
+    ],
+    "income": [
+        {
+            "id" : "work_category",
+            "name": "Work",
+            "img": "",
+            "subcategories": [
+                {
+                    "id": "salary_sub",
+                    "name": "Salary",
+                    "img": ""
+                },
+                {
+                    "id": "bonus_sub",
+                    "name": "Bonus",
+                    "img": ""
+                },
+                {
+                    "id": "overtime_sub",
+                    "name": "Overtime",
+                    "img": ""
+                },
+                {
+                    "id": "commissions_sub",
+                    "name": "Commissions",
+                    "img": ""
+                },
+                {
+                    "id": "tips_sub",
+                    "name": "Tips",
+                    "img": ""
+                }
+            ]
+        },
+        {
+            "id" : "freelance_bussiness_category",
+            "name": "Freelance / Bussiness",
+            "img": "",
+            "subcategories": [
+                {
+                    "id": "freelance_sub",
+                    "name": "Freelance",
+                    "img": ""
+                },
+                {
+                    "id": "consulting_sub",
+                    "name": "Consulting",
+                    "img": ""
+                },
+                {
+                    "id": "own_products_sale_sub",
+                    "name": "Own Products Sale",
+                    "img": ""
+                },
+                {
+                    "id": "products_sale_sub",
+                    "name": "Products Sale",
+                    "img": ""
+                },
+                {
+                    "id": "bussiness_profit_sub",
+                    "name": "Bussiness Profit",
+                    "img": ""
+                },
+                {
+                    "id": "royalty_profit_sub",
+                    "name": "Royalty",
+                    "img": ""
+                }
+            ]
+        },
+        {
+            "id" : "investments_category",
+            "name": "Investments",
+            "img": "",
+            "subcategories": [
+                {
+                    "id": "dividends_sub",
+                    "name": "Dividends",
+                    "img": ""
+                },
+                {
+                    "id": "interest_sub",
+                    "name": "Interest",
+                    "img": ""
+                },
+                {
+                    "id": "investments_income_sub",
+                    "name": "Investments Income",
+                    "img": ""
+                },
+                {
+                    "id": "sale_assets_sub",
+                    "name": "Sale of Assets",
+                    "img": ""
+                }
+            ]
+        },
+        {
+            "id" : "savings_category",
+            "name": "Savings",
+            "img": "",
+            "subcategories": [
+                {
+                    "id": "interest_savings_sub",
+                    "name": "Interest on Savings",
+                    "img": ""
+                },
+                {
+                    "id": "interest_deposit_sub",
+                    "name": "Interest on Deposit",
+                    "img": ""
+                },
+                {
+                    "id": "savings_return_sub",
+                    "name": "Return of Savings",
+                    "img": ""
+                }
+            ]
+        },
+        {
+            "id" : "gifts_income_category",
+            "name": "Gifts",
+            "img": "",
+            "subcategories": [
+                {
+                    "id": "cash_gift_sub",
+                    "name": "Cash Gift",
+                    "img": ""
+                },
+                {
+                    "id": "gift_family_sub",
+                    "name": "Gift from Family",
+                    "img": ""
+                },
+                {
+                    "id": "other_gift_income_sub",
+                    "name": "Other",
+                    "img": ""
+                }
+            ]
+        },
+        {
+            "id" : "refund_category",
+            "name": "Refund",
+            "img": "",
+            "subcategories": [
+                {
+                    "id": "refund_sub",
+                    "name": "Refund",
+                    "img": ""
+                },
+                {
+                    "id": "debt_repayment_sub",
+                    "name": "Debt Repayment",
+                    "img": ""
+                },
+                {
+                    "id": "purchase_refund_sub",
+                    "name": "Purchase Refund",
+                    "img": ""
+                },
+                {
+                    "id": "insurance_payment_sub",
+                    "name": "Insurance Payment",
+                    "img": ""
+                },
+                {
+                    "id": "cashback_sub",
+                    "name": "Cashback",
+                    "img": ""
+                }
+            ]
+        },
+        {
+            "id" : "property_category",
+            "name": "Property",
+            "img": "",
+            "subcategories": [
+                {
+                    "id": "rent_sub",
+                    "name": "Rent",
+                    "img": ""
+                },
+                {
+                    "id": "sale_property_sub",
+                    "name": "Sale of Property",
+                    "img": ""
+                },
+                {
+                    "id": "selling_items_sub",
+                    "name": "Selling Items",
+                    "img": ""
+                }
+            ]
+        },
+        {
+            "id" : "government_organizations_category",
+            "name": "Government & Organizations",
+            "img": "",
+            "subcategories": [
+                {
+                    "id": "scholarship_sub",
+                    "name": "Scolarship",
+                    "img": ""
+                },
+                {
+                    "id": "social_benefits_sub",
+                    "name": "Social Benefits",
+                    "img": ""
+                },
+                {
+                    "id": "tax_refund_sub",
+                    "name": "Tax Refund",
+                    "img": ""
+                },
+                {
+                    "id": "grant_sub",
+                    "name": "Grant",
+                    "img": ""
+                },
+                {
+                    "id": "other_gov_income_sub",
+                    "name": "Other",
+                    "img": ""
+                }
+            ]
+        },
+        {
+            "id" : "other_income_category",
+            "name": "Other",
+            "img": "",
+            "subcategories": [
+                {
+                    "id": "incidential_income_sub",
+                    "name": "Incidential Income",
+                    "img": ""
+                },
+                {
+                    "id": "other_income_sub",
+                    "name": "Other",
+                    "img": ""
+                }
+            ]
+        }
+    ]
+}
