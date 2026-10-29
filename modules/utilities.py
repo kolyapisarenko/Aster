@@ -1,4 +1,4 @@
-from utils.database import get_latest_metrics, save_utility_record
+from utils.postgres_database import get_latest_metrics, save_utility_record
 from models.UtilityRecord import UtilityRecord
 import pandas as pd
 import streamlit as st

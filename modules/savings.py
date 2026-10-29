@@ -1,4 +1,4 @@
-from utils.database import feed_piggy_bank, get_current_balance, get_savings_history, get_calendar_events, update_savings_entry
+from utils.postgres_database import feed_piggy_bank, get_current_balance, get_savings_history, get_calendar_events, update_savings_entry
 import sqlite3
 from datetime import date, datetime
 import pandas as pd

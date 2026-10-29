@@ -1,6 +1,6 @@
 import streamlit as st
 from modules import utilities, savings, habits
-from utils.database import init_db
+from utils.postgres_database import init_db
 
 def main():
     st.set_page_config(page_title="Aster Core", page_icon="🤖")

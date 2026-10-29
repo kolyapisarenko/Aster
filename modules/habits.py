@@ -1,4 +1,4 @@
-from utils.database import add_habit, log_habit, get_habits_for_today, delete_habit, get_all_habits, is_habit_scheduled, get_habit_data, get_done_dates, get_habit_total_count
+from utils.postgres_database import add_habit, log_habit, get_habits_for_today, delete_habit, get_all_habits, is_habit_scheduled, get_habit_data, get_done_dates, get_habit_total_count
 import sqlite3
 from datetime import date, timedelta, datetime
 import time

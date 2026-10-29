@@ -10,7 +10,7 @@ from aiogram.types import InlineKeyboardButton, WebAppInfo
 import requests
 import os
 import time
-from utils.database import (
+from utils.postgres_database import (
     get_habits_for_today, log_habit, get_current_balance, 
     feed_piggy_bank
 )
