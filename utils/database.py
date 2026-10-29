@@ -204,6 +204,22 @@ def get_habit_data(h_id, user_id):
     result = execute_query(query, (h_id, user_id), fetch="one")
     return result if result else None
 
+# --- FINANCES ---
+
+def create_finances_table():
+    finances_query = """
+    CREATE TABLE IF NOT EXISTS finances
+        id INTEGER PRIMARY KEY AUTOINCREMENT,
+        user_id INTEGER NOT NULL,
+        transaction_id TEXT NOT NULL,
+        transaction_type TEXT NOT NULL,
+        amount INT
+
+    """
+
+def add_transaction():
+    pass
+
 # --- SHARED ---
 
 def is_habit_scheduled(target_date, f_type, f_value, start_date):
@@ -225,4 +241,5 @@ def is_habit_scheduled(target_date, f_type, f_value, start_date):
 def init_db():
     create_utility_table()
     create_saving_table()
+    create_finances_table()
     create_habit_tables()
