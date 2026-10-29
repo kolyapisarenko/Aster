@@ -1,6 +1,6 @@
 ,Symbol,Code
-1,$,USD
-2,؋‎,AFN
+1,₴,UAH
+2,$,USD
 3,€,EUR
 4,L,ALL
 5,DA,DZD
@@ -229,7 +229,7 @@
 228,$,USD
 229,$,AUD
 230,Sh or Shs (pl.),UGX
-231,₴,UAH
+231,؋‎,AFN
 232,£,GBP
 233,$,USD
 234,$,UYU
