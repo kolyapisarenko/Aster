@@ -165,7 +165,7 @@ def add_habit(name, f_type, value, start_dt, user_id):
 def log_habit(habit_id, log_date, status, user_id):
     query = """
     INSERT INTO habit_logs (user_id, habit_id, log_date, status) 
-    VALUES (%s, %s, %s, %s)
+    VALUES (%s, %s, %s::date, %s)
     ON CONFLICT (user_id, habit_id, log_date) 
     DO UPDATE SET status = EXCLUDED.status
     """
