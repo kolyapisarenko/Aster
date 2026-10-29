@@ -176,7 +176,7 @@ def get_habits_for_today(target_date, user_id):
     query = """
         SELECT h.id, h.name, h.freq_type, h.freq_value, h.start_date, COALESCE(l.status, 0) as status 
         FROM habits h 
-        LEFT JOIN habit_logs l on h.id = l.habit_id AND l.log_date = %s AND l.user_id = %s
+        LEFT JOIN habit_logs l on h.id = l.habit_id AND l.log_date::date = %s AND l.user_id = %s
         WHERE h.is_active = 1 AND h.user_id = %s
     """
     all_habits = execute_query(query, (target_date, user_id, user_id), fetch="all")
@@ -184,7 +184,6 @@ def get_habits_for_today(target_date, user_id):
 
     for habit in all_habits:
         h_id, name, f_type, f_value, start_date_val, status = habit
-        # У psycopg об'єкти DATE повертаються як datetime.date, а не str
         start_dt = start_date_val if isinstance(start_date_val, date) else datetime.strptime(start_date_val, '%Y-%m-%d').date()
         if is_habit_scheduled(target_date, f_type, f_value, start_dt):
             filtered_habits.append((h_id, name, status))
