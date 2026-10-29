@@ -13,3 +13,5 @@ RUN chmod +x start.sh
 EXPOSE 8502
 
 CMD ["./start.sh"]
+
+ENV PYTHONUNBUFFERED=1
