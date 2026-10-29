@@ -6,7 +6,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 DB_PATH = os.getenv("DB_PATH", os.path.join("data", "aster_database.db"))
-DB_URL = os.getenv("DB_URL")
+DB_URL = os.getenv("DATABASE_URL")
 
 def migrate():
     sqlite_conn = sqlite3.connect(DB_PATH)
