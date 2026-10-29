@@ -7,26 +7,14 @@ from aiogram.fsm.context import FSMContext
 from aiogram.fsm.state import StatesGroup, State
 from aiogram.utils.keyboard import InlineKeyboardBuilder, ReplyKeyboardBuilder
 from aiogram.types import InlineKeyboardButton, WebAppInfo
-import requests
 import os
-import time
 from utils.postgres_database import (
     get_habits_for_today, log_habit, get_current_balance, 
     feed_piggy_bank
 )
 
-def get_ngrok_url():
-    time.sleep(5) 
-    try:
-        response = requests.get("http://ngrok-tunnel:4040/api/tunnels", timeout=3.0)
-        data = response.json()
-        return data['tunnels'][0]['public_url']
-    except Exception as e:
-        print(f"Error getting ngrok URL: {e}")
-        return "http://localhost:8502" 
-    
 TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")
-WEB_APP_URL = get_ngrok_url()
+WEB_APP_URL = os.getenv("WEB_APP_URL", "http://localhost:8502")
 
 if not TOKEN:
     raise ValueError("No TELEGRAM_BOT_TOKEN found in environment variables!")
